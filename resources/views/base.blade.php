@@ -12,10 +12,9 @@
         <!-- Styles -->
         
     </head>
-    <body class="antialiased">
-      <h1>Hello from Senegal</h1>
-
-      <p>It's currently {{ date('H:i') }}.</p>
+    <body>
+      
+      @yield('content')
 
       <footer>&copy; copyright {{ date('Y') }} &middot; <a href="/about-us">About Us</a></footer>
     </body>
