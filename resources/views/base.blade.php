@@ -16,6 +16,6 @@
       
       @yield('content')
 
-      <footer>&copy; copyright {{ date('Y') }} &middot; <a href="/about-us">About Us</a></footer>
+      <footer>&copy; copyright {{ date('Y') }} &middot; <a href="{{ route('about_us') }}">About Us</a></footer>
     </body>
 </html>
