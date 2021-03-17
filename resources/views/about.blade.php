@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Hello city</title>
+        <title>About Us | Hello city</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -13,9 +13,10 @@
         
     </head>
     <body class="antialiased">
-      <h1>Hello from Senegal</h1>
 
-      <p>It's currently {{ date('H:i') }}.</p>
+      <p>Build with &hearts; by lengolo form les Teachers DU NET </p>
+
+      <p><a href="/">Retour vers la page d'accueil</a></p>
 
       <footer>&copy; copyright {{ date('Y') }} &middot; <a href="/about-us">About Us</a></footer>
     </body>
