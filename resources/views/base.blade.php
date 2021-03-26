@@ -10,17 +10,20 @@
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
         <!-- Styles -->
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
         
     </head>
-    <body>
-      
-      @yield('content')
+    <body class="py-6 flex flex-col justify-between min-h-screen items-center">
+      <main role="main" class="flex flex-col justify-center items-center ">
+  
+        @yield('content')
+      </main>
 
-      <footer>
+      <footer class="text-gray-400">
         &copy; copyright {{ date('Y') }} 
 
         @if(!Route::is('about_us'))
-          &middot; <a href="{{ route('about_us') }}">About Us</a></footer>
+          &middot; <a href="{{ route('about_us') }}" class="text-indigo-500 hover:text-indigo-600 underline">About Us</a></footer>
         @endif
     </body>
 </html>
