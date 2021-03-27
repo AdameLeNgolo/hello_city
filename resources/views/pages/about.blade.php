@@ -1,6 +1,6 @@
-@extends('base')
+@extends('layouts/base',['title' => 'About Us'])
 
-@section('title','About Us | '.config('app.name'))
+{{-- @section('title','About Us | '.config('app.name')) --}}
     
 @section('content')
   <img src="{{ asset('/img/dylan.jpg') }}" alt="Dylan O'Brian" class="my-12 rounded-full shadow-md h-32">
